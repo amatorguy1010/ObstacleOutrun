@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\",
+  "WorkspaceRootPath": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\assets\\pipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\assets\\birdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\birdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\campa\\onedrive\\desktop\\obstacleoutrun\\obstacleoutrun\\assets\\pipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\campa\\onedrive\\desktop\\obstacleoutrun\\obstacleoutrun\\assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\assets\\pipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PipeMiddleScript.cs",
-              "DocumentMoniker": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMiddleScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeMiddleScript.cs",
-              "ToolTip": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMiddleScript.cs",
-              "RelativeToolTip": "Assets\\PipeMiddleScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T11:47:49.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogicScript.cs",
-              "DocumentMoniker": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\LogicScript.cs",
-              "RelativeDocumentMoniker": "Assets\\LogicScript.cs",
-              "ToolTip": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\LogicScript.cs",
-              "RelativeToolTip": "Assets\\LogicScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T11:40:27.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PipeSpawnScript.cs",
-              "DocumentMoniker": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeSpawnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeSpawnScript.cs",
-              "ToolTip": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeSpawnScript.cs",
-              "RelativeToolTip": "Assets\\PipeSpawnScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:50:51.88Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PipeMoveScript.cs",
-              "DocumentMoniker": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMoveScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeMoveScript.cs",
-              "ToolTip": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMoveScript.cs",
-              "RelativeToolTip": "Assets\\PipeMoveScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Title": "MovementController.cs",
+              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\MovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementController.cs",
+              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\MovementController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovementController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAzwCoAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:43:24.809Z",
+              "WhenOpened": "2024-04-15T09:21:31.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BirdScript.cs",
-              "DocumentMoniker": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\BirdScript.cs",
-              "RelativeDocumentMoniker": "Assets\\BirdScript.cs",
-              "ToolTip": "C:\\Users\\campa\\OneDrive\\Desktop\\ObstacleOutrun\\ObstacleOutrun\\Assets\\BirdScript.cs",
-              "RelativeToolTip": "Assets\\BirdScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\login.cs",
+              "RelativeDocumentMoniker": "Assets\\login.cs",
+              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\login.cs",
+              "RelativeToolTip": "Assets\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:23:08.394Z",
+              "WhenOpened": "2024-04-15T09:02:53.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T08:58:58.916Z",
               "EditorCaption": ""
             }
           ]

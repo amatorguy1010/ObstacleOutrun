@@ -7,14 +7,14 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
     }
     public void goToLevels()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(1);
     }
     public void goToLogin()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(8);
     }
 }
