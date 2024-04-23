@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 180428106}
   m_Layer: 0
   m_Name: Logic Manager
-  m_TagString: Logic
+  m_TagString: LogicGreen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,6 +346,7 @@ MonoBehaviour:
   myRigidbody: {fileID: 513788679}
   flapStrength: 20
   logic: {fileID: 0}
+  birdIsAlive: 1
 --- !u!58 &513788681
 CircleCollider2D:
   m_ObjectHideFlags: 0
