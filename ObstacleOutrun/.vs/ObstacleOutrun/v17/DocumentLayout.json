@@ -3,48 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\superbirdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\superbirdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenpipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenpipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenpipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenpipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\pipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipemiddlescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenpipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenpipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\pipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipemovescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\pipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\pipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\birdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\birdscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\scripts\\firebase auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firebase auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,136 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\login.cs",
-              "RelativeDocumentMoniker": "Assets\\login.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\login.cs",
-              "RelativeToolTip": "Assets\\login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Firebase Auth.cs",
+              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\Firebase Auth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Firebase Auth.cs",
+              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\Firebase Auth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Firebase Auth.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:27:01.613Z",
+              "WhenOpened": "2024-05-07T07:58:28.939Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GreenPipeMiddleScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeMiddleScript.cs",
-              "RelativeDocumentMoniker": "Assets\\GreenPipeMiddleScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeMiddleScript.cs",
-              "RelativeToolTip": "Assets\\GreenPipeMiddleScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:06:17.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GreenLogicScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenLogicScript.cs",
-              "RelativeDocumentMoniker": "Assets\\GreenLogicScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenLogicScript.cs",
-              "RelativeToolTip": "Assets\\GreenLogicScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:58:20.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GreenPipeSpawnScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeSpawnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\GreenPipeSpawnScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeSpawnScript.cs",
-              "RelativeToolTip": "Assets\\GreenPipeSpawnScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:05:39.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GreenPipeMoveScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeMoveScript.cs",
-              "RelativeDocumentMoniker": "Assets\\GreenPipeMoveScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeMoveScript.cs",
-              "RelativeToolTip": "Assets\\GreenPipeMoveScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:00:08.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SuperBirdScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\SuperBirdScript.cs",
-              "RelativeDocumentMoniker": "Assets\\SuperBirdScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\SuperBirdScript.cs",
-              "RelativeToolTip": "Assets\\SuperBirdScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T08:46:59.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PipeMiddleScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMiddleScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeMiddleScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMiddleScript.cs",
-              "RelativeToolTip": "Assets\\PipeMiddleScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T11:47:49.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogicScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\LogicScript.cs",
-              "RelativeDocumentMoniker": "Assets\\LogicScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\LogicScript.cs",
-              "RelativeToolTip": "Assets\\LogicScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T11:40:27.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PipeSpawnScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeSpawnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeSpawnScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeSpawnScript.cs",
-              "RelativeToolTip": "Assets\\PipeSpawnScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:50:51.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PipeMoveScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMoveScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PipeMoveScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\PipeMoveScript.cs",
-              "RelativeToolTip": "Assets\\PipeMoveScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:43:24.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BirdScript.cs",
-              "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\BirdScript.cs",
-              "RelativeDocumentMoniker": "Assets\\BirdScript.cs",
-              "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\BirdScript.cs",
-              "RelativeToolTip": "Assets\\BirdScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:23:08.394Z"
             }
           ]
         }

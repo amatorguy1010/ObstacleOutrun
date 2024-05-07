@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 107
+  controlID: 37
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 270.4
     height: 452
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 442.40002
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Buttons Images
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Buttons Images
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\draia\Desktop\Ic proiect\ObstacleOutrun\ObstacleOutrun
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 14.200012}
-    m_SelectedIDs: d0730000
-    m_LastClickedID: 29648
-    m_ExpandedIDs: 000000003c6600003e6600004e66000000ca9a3b
+    m_SelectedIDs: 3c660000
+    m_LastClickedID: 26172
+    m_ExpandedIDs: 000000001e660000206600003e66000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8e650000
     m_LastClickedID: 25998
-    m_ExpandedIDs: 000000003c6600003e660000
+    m_ExpandedIDs: 000000001e66000020660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 4.200012}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 160.40001
@@ -461,21 +461,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bad2ffff38d7ffff6ae2ffff6ce2ffffa6e9fffface9ffff82efffff32f0ffff78f0ffff10f2ffff96f2ffffc8f2ffff0af3ffff84f4ffffbef4fffff2f4ffff2cf5ffff64f5ffff9cf5ffffd0f5ffff04f6ffffa6f8ffffdaf8ffff0ef9ffff44f9ffff48faffff466d0000646d0000ea6d0000fa6d00001c6e00002e6e0000386e0000
+      m_ExpandedIDs: 82a0ffff86a2ffff9ea4ffffaaa5ffff2aa6fffff6a9ffff38aaffff80aaffffc8aaffff0eabffff54abffff96abffffdaabffff20acffff68acffffaeacfffff6acffff42adffff8cadffffd4adffff1caeffff5eaeffffa4aeffffecaeffff34afffff40b2ffff44b2ffff98b2ffffc2b5ffff32b8ffff3ebcffff82ceffff8aceffffa2e8ffff54f7ffff98f9ffff16fbffffc06600000e6700003a670000e46b0000346c0000507000002a76000090880000528900007a890000fa8b0000188c00001c8c0000248d0000c88d0000e68d000084900000a8900000be900000ea91000030920000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ForgetPasswordPage
+        m_OriginalName: ForgetPasswordPage
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -30164
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -783,7 +783,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 783, y: 10}
+      snapOffset: {x: 581.60004, y: 10}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -854,9 +854,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 989.1193, y: 558.4242, z: -2.0998542}
+    m_Target: {x: 960, y: 540, z: 0}
     speed: 2
-    m_Value: {x: 989.1193, y: 558.4242, z: -2.0998542}
+    m_Value: {x: 960, y: 540, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -906,9 +906,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 554.094
+    m_Target: 1101.4536
     speed: 2
-    m_Value: 554.094
+    m_Value: 1101.4532
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1108,7 +1108,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 594
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
