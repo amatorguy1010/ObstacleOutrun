@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508982954938",
+    "project_id": "obstacleoutrun",
+    "storage_bucket": "obstacleoutrun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508982954938:android:5f3c3353f7410b06556b83",
+        "android_client_info": {
+          "package_name": "com.blitz.obstacleoutrun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpV1rj0yB-1xV41fryqYtFXneC3fIgi0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
