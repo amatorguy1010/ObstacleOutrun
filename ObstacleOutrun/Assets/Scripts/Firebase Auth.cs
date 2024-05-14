@@ -54,8 +54,8 @@ public class FirebaseAuth : MonoBehaviour
     }
     public void OpenSignUpPanel()
     {
-        loginPanel.SetActive(true);
-        signupPanel.SetActive(false);
+        loginPanel.SetActive(false);
+        signupPanel.SetActive(true);
         profilePanel.SetActive(false);
         forgetPasswordPanel.SetActive(false);
 
@@ -89,9 +89,12 @@ public class FirebaseAuth : MonoBehaviour
             return;
         }
 
-        // Do Login
+        SignInUser(loginEmail.text, loginPassword.text);
 
-        SignInUser(loginEmail.text , loginPassword.text );
+        // Do Login
+        OpenProfilePanel();
+
+       
     }
 
     public void SignUpUser()
@@ -114,6 +117,7 @@ public class FirebaseAuth : MonoBehaviour
             showNotificationMessage("Error", "Forget Email Empty");
             return;
         }
+        forgetPasswordSubmit(forgetPassEmail.text);
     }
 
     private void showNotificationMessage(string title, string message)
@@ -133,10 +137,11 @@ public class FirebaseAuth : MonoBehaviour
     public void LogOut()
     {
         auth.SignOut();
-        profilePanel.SetActive(false);
+        OpenLoginPanel();
         profileUserEmail_Text.text = "";
         profileUserName_Text.text = "";
-        OpenLoginPanel();
+        
+
     }
 
     void CreateUser( string email , string password ,string Username)
@@ -150,6 +155,16 @@ public class FirebaseAuth : MonoBehaviour
             if (task.IsFaulted)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+
+                foreach (Exception exception in task.Exception.Flatten().InnerExceptions)
+                {
+                    Firebase.FirebaseException firebaseEx = exception as Firebase.FirebaseException;
+                    if (firebaseEx != null)
+                    {
+                        var errorCode = (AuthError)firebaseEx.ErrorCode;
+                        showNotificationMessage("Error", GetErrorMessage(errorCode));
+                    }
+                }
                 return;
             }
 
@@ -180,13 +195,25 @@ public class FirebaseAuth : MonoBehaviour
             }
             if (task.IsFaulted)
             {
-                Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception.ToString());
-                // Extracting more detailed error information
+                Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+
                 if (task.Exception.InnerException != null)
                 {
                     Debug.LogError("Inner Exception: " + task.Exception.InnerException.Message);
                 }
                 showNotificationMessage("Error", "Failed to log in: " + task.Exception.GetBaseException().Message);
+                
+
+                /*foreach (Exception exception in task.Exception.Flatten().InnerExceptions)
+                {
+                    Firebase.FirebaseException firebaseEx = exception as Firebase.FirebaseException;
+                    if (firebaseEx != null)
+                    {
+                        var errorCode = (AuthError)firebaseEx.ErrorCode;
+                        showNotificationMessage("Error", GetErrorMessage(errorCode));
+                    }
+                }*/
+
                 return;
             }
 
@@ -197,6 +224,38 @@ public class FirebaseAuth : MonoBehaviour
             profileUserEmail_Text.text = result.User.Email ?? "No email";
             OpenProfilePanel();
         });
+    }
+    private static string GetErrorMessage(AuthError errorCode)
+    {
+        var message = "";
+        switch (errorCode)
+        {
+            case AuthError.AccountExistsWithDifferentCredentials:
+                message = "Account Not Exist";
+                break;
+            case AuthError.MissingPassword:
+                message = "Missing Password";
+                break;
+            case AuthError.WeakPassword:
+                message = "Password so Weak";
+                break;
+            case AuthError.WrongPassword:
+                message = "Wrong Password";
+                break;
+            case AuthError.EmailAlreadyInUse:
+                message = "Your Email Already in Use";
+                break;
+            case AuthError.InvalidEmail:
+                message = "Your Email is Invalid";
+                break;
+            case AuthError.MissingEmail:
+                message = "Email Missing";
+                break;
+            default:
+                message = "Invalid Error";
+                break;
+        }
+        return message;
     }
 
     void InitializeFirebase()
@@ -224,6 +283,9 @@ public class FirebaseAuth : MonoBehaviour
             }
         }
     }
+
+
+
 
     void OnDestroy()
     {
@@ -261,7 +323,7 @@ public class FirebaseAuth : MonoBehaviour
     }
     bool IsSigned = false;
 
-    /*void Update()
+    void Update()
     {
         if (IsSignIn && !IsSigned)
         {
@@ -272,11 +334,36 @@ public class FirebaseAuth : MonoBehaviour
                 profileUserEmail_Text.text = user.Email ?? "No email";  // Fallback to default if null
                 OpenProfilePanel();
             }
-            else
+            /*else
             {
                 Debug.LogError("Update: One or more required fields are null.");
-            }
+            }*/
         }
-    }*/
+    }
+
+    void forgetPasswordSubmit(string forgetPasswordEmail)
+    {
+        auth.SendPasswordResetEmailAsync(forgetPasswordEmail).ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCanceled)
+            {
+                Debug.LogError("SendPasswordResetEmailAsync was canceled.");
+            }
+            if (task.IsFaulted)
+            {
+                foreach (Exception exception in task.Exception.Flatten().InnerExceptions)
+                {
+                    Firebase.FirebaseException firebaseEx = exception as Firebase.FirebaseException;
+                    if (firebaseEx != null)
+                    {
+                        var errorCode = (AuthError)firebaseEx.ErrorCode;
+                        showNotificationMessage("Error", GetErrorMessage(errorCode));
+                    }
+                }
+            }
+
+            showNotificationMessage("Alert", "Successfully Send Email for Reset Password.");
+        });
+    }
 
 }
