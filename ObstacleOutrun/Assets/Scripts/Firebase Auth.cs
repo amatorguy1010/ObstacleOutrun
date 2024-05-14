@@ -327,7 +327,7 @@ public class FirebaseAuth : MonoBehaviour
     {
         if (IsSignIn && !IsSigned)
         {
-            //if (user != null && profileUserName_Text != null && profileUserEmail_Text != null)
+            if (user != null && profileUserName_Text != null && profileUserEmail_Text != null)
             {
                 IsSigned = true;
                 profileUserName_Text.text = "" + user.DisplayName;
