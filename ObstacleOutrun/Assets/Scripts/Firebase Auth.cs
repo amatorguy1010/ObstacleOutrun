@@ -16,7 +16,7 @@ public class FirebaseAuth : MonoBehaviour
 
     public TMP_InputField loginEmail, loginPassword, signupEmail, signupPassword, signupCPassword, signupUserName, forgetPassEmail;
 
-    public Text notif_Title_Text, notif_Message_Text,profileUserName_Text,profileUserEmail_Text;
+    public TMP_Text notif_Title_Text, notif_Message_Text,profileUserName_Text,profileUserEmail_Text;
 
     public Toggle rememberMe;
 
@@ -220,8 +220,8 @@ public class FirebaseAuth : MonoBehaviour
             Firebase.Auth.AuthResult result = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 result.User.DisplayName, result.User.UserId);
-            profileUserName_Text.text = result.User.DisplayName ?? "No display name";
-            profileUserEmail_Text.text = result.User.Email ?? "No email";
+            profileUserName_Text.text = "" + result.User.DisplayName ;
+            profileUserEmail_Text.text = "" + result.User.Email;
             OpenProfilePanel();
         });
     }
@@ -327,17 +327,17 @@ public class FirebaseAuth : MonoBehaviour
     {
         if (IsSignIn && !IsSigned)
         {
-            if (user != null && profileUserName_Text != null && profileUserEmail_Text != null)
+            //if (user != null && profileUserName_Text != null && profileUserEmail_Text != null)
             {
                 IsSigned = true;
-                profileUserName_Text.text = user.DisplayName ?? "No display name";  // Fallback to default if null
-                profileUserEmail_Text.text = user.Email ?? "No email";  // Fallback to default if null
+                profileUserName_Text.text = "" + user.DisplayName;
+                profileUserEmail_Text.text = "" + user.Email; 
                 OpenProfilePanel();
             }
-            /*else
+           // else
             {
-                Debug.LogError("Update: One or more required fields are null.");
-            }*/
+                //Debug.LogError("Update: One or more required fields are null.");
+            }
         }
     }
 
