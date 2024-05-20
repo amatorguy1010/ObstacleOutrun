@@ -33,6 +33,7 @@ public class FirebaseAuth : MonoBehaviour
     public GameObject MainAdminPage, AdminView;
     DatabaseReference databaseReference;
 
+    public TMP_Text usernameForAdminPage, emailText;
 
     void Start()
     {
@@ -134,8 +135,16 @@ public class FirebaseAuth : MonoBehaviour
 
         // Do Login
         //OpenProfilePanel();
+        if (loginEmail.text == adminEmail)
+        {
+            OpenMainAdminPage();
+        }
+        else
+        {
+            
+            OpenProfilePanel();
+        }
 
-       
     }
 
     public void SignUpUser()
@@ -425,7 +434,7 @@ public class FirebaseAuth : MonoBehaviour
         {
             MainAdminPage.SetActive(false);
             AdminView.SetActive(true);
-            // Aici poți adăuga cod pentru a încărca și afișa utilizatorii pe panoul admin, folosind prefab-ul AdminView sau orice alte componente UI ai definit
+            DisplayUsersFromDatabase();
         }
         else
         {
@@ -434,16 +443,24 @@ public class FirebaseAuth : MonoBehaviour
     }
 
 
+
+    void UpdateUserPanel(string username, string email)
+    {
+        usernameForAdminPage.text += username + "\n";
+        emailText.text += email + "\n";
+
+    }
+
     void AddUserToDatabase(string userId, string userEmail, string userName)
     {
-        // Creează un nou obiect pentru datele utilizatorului
+       
         Dictionary<string, object> user = new Dictionary<string, object>
     {
         { "email", userEmail },
         { "username", userName }
     };
 
-        // Adaugă datele utilizatorului în baza de date la calea corespunzătoare (de exemplu, "users/{userId}")
+       
         databaseReference.Child("users").Child(userId).SetValueAsync(user).ContinueWithOnMainThread(task =>
         {
             if (task.IsFaulted)
@@ -453,6 +470,31 @@ public class FirebaseAuth : MonoBehaviour
             }
 
             Debug.Log("User data added to database successfully.");
+        });
+    }
+    void DisplayUsersFromDatabase()
+    {
+        
+        databaseReference.Child("users").GetValueAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.IsFaulted)
+            {
+                Debug.LogError("Error fetching users: " + task.Exception);
+                return;
+            }
+
+            
+            foreach (var userSnapshot in task.Result.Children)
+            {
+                string userId = userSnapshot.Key;
+                string email = userSnapshot.Child("email").Value.ToString();
+                string username = userSnapshot.Child("username").Value.ToString();
+
+                Debug.Log("User ID: " + userId + ", Email: " + email + ", Username: " + username);
+                UpdateUserPanel(username, email);
+
+            }
+
         });
     }
 
