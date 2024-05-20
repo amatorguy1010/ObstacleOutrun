@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mail;
 using TMPro;
@@ -8,7 +8,10 @@ using Firebase;
 using Firebase.Auth;
 using System;
 using System.Threading.Tasks;
+//using Firebase.Unity.Editor;
+using Firebase.Database;
 using Firebase.Extensions;
+using UnityEngine.SceneManagement;
 
 public class FirebaseAuth : MonoBehaviour
 {
@@ -23,6 +26,14 @@ public class FirebaseAuth : MonoBehaviour
     Firebase.Auth.FirebaseAuth auth;
     Firebase.Auth.FirebaseUser user;
     bool IsSignIn = false;
+
+    private const string adminEmail = "admin123@yahoo.com";
+    private const string adminPassword = "admin123";
+
+    public GameObject MainAdminPage, AdminView;
+    DatabaseReference databaseReference;
+
+
     void Start()
     {
         Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
@@ -42,22 +53,30 @@ public class FirebaseAuth : MonoBehaviour
                 // Firebase Unity SDK is not safe to use here.
             }
         });
+        //FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://obstacleoutrun-default-rtdb.firebaseio.com/");
+
+        databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
+
     }
 
     public void OpenLoginPanel()
     {
         loginPanel.SetActive(true);
         signupPanel.SetActive(false);
+        MainAdminPage.SetActive(false);
         profilePanel.SetActive(false);
         forgetPasswordPanel.SetActive(false);
+        AdminView.SetActive(false);
 
     }
     public void OpenSignUpPanel()
     {
         loginPanel.SetActive(false);
         signupPanel.SetActive(true);
+        MainAdminPage.SetActive(false);
         profilePanel.SetActive(false);
         forgetPasswordPanel.SetActive(false);
+        AdminView.SetActive(false);
 
 
     }
@@ -66,16 +85,38 @@ public class FirebaseAuth : MonoBehaviour
         loginPanel.SetActive(false);
         signupPanel.SetActive(false);
         profilePanel.SetActive(true);
+        MainAdminPage.SetActive(false);
         forgetPasswordPanel.SetActive(false);
+        AdminView.SetActive(false);
 
 
     }
+
+    public void OpenMainAdminPage()
+    {
+        if (user != null && user.Email == adminEmail)
+        {
+            loginPanel.SetActive(false);
+            signupPanel.SetActive(false);
+            profilePanel.SetActive(false);
+            MainAdminPage.SetActive(true);
+            AdminView.SetActive(false);
+            forgetPasswordPanel.SetActive(false);
+
+        }
+        else
+        {
+            Debug.LogError("Only admins can access the main admin page.");
+        }
+    }
+
 
     public void OpenForgetPassPanel()
     {
         loginPanel.SetActive(false);
         signupPanel.SetActive(false);
         profilePanel.SetActive(false);
+        MainAdminPage.SetActive(false);
         forgetPasswordPanel.SetActive(true);
 
 
@@ -92,7 +133,7 @@ public class FirebaseAuth : MonoBehaviour
         SignInUser(loginEmail.text, loginPassword.text);
 
         // Do Login
-        OpenProfilePanel();
+        //OpenProfilePanel();
 
        
     }
@@ -140,7 +181,7 @@ public class FirebaseAuth : MonoBehaviour
         OpenLoginPanel();
         profileUserEmail_Text.text = "";
         profileUserName_Text.text = "";
-        
+        MainAdminPage.SetActive(false);
 
     }
 
@@ -174,6 +215,8 @@ public class FirebaseAuth : MonoBehaviour
                 result.User.DisplayName, result.User.UserId);
 
             UpdateUserProfile(Username);
+
+            AddUserToDatabase(result.User.UserId, email, Username);
         });
     }
 
@@ -220,9 +263,17 @@ public class FirebaseAuth : MonoBehaviour
             Firebase.Auth.AuthResult result = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 result.User.DisplayName, result.User.UserId);
-            profileUserName_Text.text = "" + result.User.DisplayName ;
-            profileUserEmail_Text.text = "" + result.User.Email;
-            OpenProfilePanel();
+
+            if (email == adminEmail)
+            {
+                OpenMainAdminPage();
+            }
+            else
+            {
+                profileUserName_Text.text = "" + result.User.DisplayName;
+                profileUserEmail_Text.text = "" + result.User.Email;
+                OpenProfilePanel();
+            }
         });
     }
     private static string GetErrorMessage(AuthError errorCode)
@@ -363,6 +414,45 @@ public class FirebaseAuth : MonoBehaviour
             }
 
             showNotificationMessage("Alert", "Successfully Send Email for Reset Password.");
+        });
+    }
+
+
+
+    public void usersPage()
+    {
+        if (user != null && user.Email == adminEmail)
+        {
+            MainAdminPage.SetActive(false);
+            AdminView.SetActive(true);
+            // Aici poți adăuga cod pentru a încărca și afișa utilizatorii pe panoul admin, folosind prefab-ul AdminView sau orice alte componente UI ai definit
+        }
+        else
+        {
+            Debug.LogError("Only admins can access the users page.");
+        }
+    }
+
+
+    void AddUserToDatabase(string userId, string userEmail, string userName)
+    {
+        // Creează un nou obiect pentru datele utilizatorului
+        Dictionary<string, object> user = new Dictionary<string, object>
+    {
+        { "email", userEmail },
+        { "username", userName }
+    };
+
+        // Adaugă datele utilizatorului în baza de date la calea corespunzătoare (de exemplu, "users/{userId}")
+        databaseReference.Child("users").Child(userId).SetValueAsync(user).ContinueWithOnMainThread(task =>
+        {
+            if (task.IsFaulted)
+            {
+                Debug.LogError("AddUserToDatabase encountered an error: " + task.Exception);
+                return;
+            }
+
+            Debug.Log("User data added to database successfully.");
         });
     }
 

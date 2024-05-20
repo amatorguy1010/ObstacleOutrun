@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "508982954938",
+    "firebase_url": "https://obstacleoutrun-default-rtdb.firebaseio.com",
     "project_id": "obstacleoutrun",
     "storage_bucket": "obstacleoutrun.appspot.com"
   },
