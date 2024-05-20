@@ -451,6 +451,10 @@ public class FirebaseAuth : MonoBehaviour
 
     }
 
+    
+
+
+
     void AddUserToDatabase(string userId, string userEmail, string userName)
     {
        
