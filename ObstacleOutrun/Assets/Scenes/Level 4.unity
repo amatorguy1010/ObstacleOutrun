@@ -263,7 +263,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4a4a51f9c20cb4845b58a902fa48f8c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 003b1f8e9130f03419202c9ccdb14424, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -330,6 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 79186256}
   flapStrength: 20
+  logic: {fileID: 0}
+  birdIsAlive: 1
 --- !u!58 &79186258
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -362,9 +364,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04, y: 0}
+  m_Offset: {x: -0.04, y: -0.28}
   serializedVersion: 2
-  m_Radius: 1.83
+  m_Radius: 1.49
 --- !u!1 &159986635
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +506,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.3081295, g: 0.4745098, b: 0.19215688, a: 0}
+  m_BackGroundColor: {r: 0.19215688, g: 0.4745098, b: 0.28875706, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -529,7 +531,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.2
+  orthographic size: 13.22
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
