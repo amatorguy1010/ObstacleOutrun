@@ -1299,7 +1299,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: bc67c7330ae8c0a439427b2b43f95f0c, type: 3}
+      - m_Target: {fileID: 566182358}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: goToLevels
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -3153,6 +3165,8 @@ GameObject:
   - component: {fileID: 566182355}
   - component: {fileID: 566182354}
   - component: {fileID: 566182357}
+  - component: {fileID: 566182358}
+  - component: {fileID: 566182359}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3244,6 +3258,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fca0a1d5845e5c45ad7382c7ff3e110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &566182358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566182353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f8675d67a9db64aa9ebe99091bcaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &566182359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566182353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc67c7330ae8c0a439427b2b43f95f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &616203516
@@ -11515,7 +11553,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2047087900}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 566182359}
+        m_TargetAssemblyTypeName: levels, Assembly-CSharp
+        m_MethodName: LevelTwo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2047087900
 MonoBehaviour:
   m_ObjectHideFlags: 0

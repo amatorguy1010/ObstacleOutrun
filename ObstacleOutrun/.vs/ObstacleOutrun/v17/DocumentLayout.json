@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\scripts\\levels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|c:\\users\\draia\\desktop\\ic proiect\\obstacleoutrun\\obstacleoutrun\\assets\\scripts\\levels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenpipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenpipespawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A7A810A-5C1D-44D5-4F98-A90E800ED824}|Assembly-CSharp.csproj|solutionrelative:assets\\greenlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "levels.cs",
               "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\levels.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\levels.cs",
               "ToolTip": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\Scripts\\levels.cs",
               "RelativeToolTip": "Assets\\Scripts\\levels.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBkAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T12:30:16.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GreenLogicScript.cs",
               "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenLogicScript.cs",
               "RelativeDocumentMoniker": "Assets\\GreenLogicScript.cs",
@@ -55,11 +55,12 @@
               "RelativeToolTip": "Assets\\GreenLogicScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T17:33:40.105Z"
+              "WhenOpened": "2024-05-20T17:33:40.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GreenPipeSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\GreenPipeSpawnScript.cs",
@@ -71,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GreenPipeMiddleScript.cs",
               "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\GreenPipeMiddleScript.cs",
               "RelativeDocumentMoniker": "Assets\\GreenPipeMiddleScript.cs",
@@ -83,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SuperBirdScript.cs",
               "DocumentMoniker": "C:\\Users\\draia\\Desktop\\Ic proiect\\ObstacleOutrun\\ObstacleOutrun\\Assets\\SuperBirdScript.cs",
               "RelativeDocumentMoniker": "Assets\\SuperBirdScript.cs",
